@@ -9,6 +9,7 @@ import {
 } from "react-router-dom";
 import Home from "./views/Home";
 import App from "./App";
+import About from "./views/About";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -16,6 +17,7 @@ ReactDOM.render(
       <Routes>
         <Route element={<App />}>
           <Route index path="/" element={<Home />} />
+          <Route index path="/about" element={<About />} />
         </Route>
       </Routes>
     </BrowserRouter>
