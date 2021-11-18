@@ -6,7 +6,8 @@ function Login(props) {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    console.log(email.current.value)
+    console.log('email', email.current.value)
+    console.log('password', password.current.value)
   }
 
   return (
