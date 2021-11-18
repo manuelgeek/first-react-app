@@ -10,6 +10,7 @@ import {
 import Home from "./views/Home";
 import App from "./App";
 import About from "./views/About";
+import Login from "./views/Login";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -18,6 +19,7 @@ ReactDOM.render(
         <Route element={<App />}>
           <Route index path="/" element={<Home />} />
           <Route index path="/about" element={<About />} />
+          <Route index path="/login" element={<Login />} />
         </Route>
       </Routes>
     </BrowserRouter>
