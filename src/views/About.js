@@ -1,4 +1,6 @@
 import React, {Component} from 'react';
+import CountTwo from "../components/CountTwo";
+import CountThree from "../components/CountThree";
 
 class About extends Component {
   constructor(props) {
@@ -21,6 +23,11 @@ class About extends Component {
           <textarea placeholder={'message'} /> <br/> <br/>
           <button type={"submit"}>Submit</button>
         </form>
+        <br/>
+        <CountTwo />
+        <br/>
+        <br/>
+        <CountThree />
       </div>
     );
   }
