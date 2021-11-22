@@ -7,6 +7,7 @@ function App(props) {
       <Link className={'nav'} to="/">Home</Link>
       <Link className={'nav'} to="about">About</Link>
       <Link className={'nav'} to="login">Login</Link>
+      <Link className={'nav'} to="register">Register</Link>
       <Outlet />
     </div>
   );

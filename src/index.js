@@ -11,6 +11,7 @@ import Home from "./views/Home";
 import App from "./App";
 import About from "./views/About";
 import Login from "./views/Login";
+import Register from "./views/Register";
 
 ReactDOM.render(
   <React.StrictMode>
@@ -20,6 +21,7 @@ ReactDOM.render(
           <Route index path="/" element={<Home />} />
           <Route index path="/about" element={<About />} />
           <Route index path="/login" element={<Login />} />
+          <Route index path="/register" element={<Register />} />
         </Route>
       </Routes>
     </BrowserRouter>
