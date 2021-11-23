@@ -14,7 +14,7 @@ function Register(props) {
     <div>
       <br/>
       <form onSubmit={handleSubmit(onSubmit)}>
-        <input {...register("name", {required: true})} type="text" name="name" id="name" placeholder={'name'}/>
+        <input className={'border-1 rounded border-gray-500 p-2 bg-gray-100'} {...register("name", {required: true})} type="text" name="name" id="name" placeholder={'name'}/>
         {errors.name && <small><br/>This field is required</small> }
         <ErrorMessage
           errors={errors}
@@ -22,9 +22,9 @@ function Register(props) {
           render={({ message }) => <p>{message}</p>}
         />
         <br/><br/>
-        <input type="email" name="" id="email" placeholder={'email'}/> <br/><br/>
-        <input type="password" name="" id="password" placeholder={'password'}/> <br/><br/>
-        <input type="submit" name="" id=""/>
+        <input className={'border-1 rounded border-gray-500 p-2 bg-gray-100'} type="email" name="" id="email" placeholder={'email'}/> <br/><br/>
+        <input className={'border-1 rounded border-gray-500 p-2 bg-gray-100'} type="password" name="" id="password" placeholder={'password'}/> <br/><br/>
+        <input className={'border-1 rounded border-gray-500 p-2 bg-blue-400'} type="submit" name="" id=""/>
       </form>
       <br/>
       <Counter />
