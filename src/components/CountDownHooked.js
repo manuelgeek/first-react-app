@@ -4,11 +4,11 @@ function CountDownHooked(props) {
   const [count, setCount] = useState(0)
 
   useEffect(() => {
-    setInterval(() => {
-      setCount((state) => {
-        return state + 1
-      })
-    }, 1000)
+    // setInterval(() => {
+    //   setCount((state) => {
+    //     return state + 1
+    //   })
+    // }, 1000)
   })
 
   return (

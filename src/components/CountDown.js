@@ -6,11 +6,11 @@ class CountDown extends Component {
    this.state = {count: 0}
   }
   componentDidMount() {
-    setInterval(() => {
-      this.setState((state) => ({
-        count: state.count + 1
-      }))
-    }, 1000)
+    // setInterval(() => {
+    //   this.setState((state) => ({
+    //     count: state.count + 1
+    //   }))
+    // }, 1000)
   }
 
   render() {
