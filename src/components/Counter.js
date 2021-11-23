@@ -9,19 +9,19 @@ export function Counter() {
     <div>
       <div className={'space-x-3'}>
         <button
-          className={'bg-green-500 p-2 rounded'}
-          aria-label="Increment value"
-          onClick={() => dispatch(increment())}
-        >
-          Increment
-        </button>
-        <span className={'chip'}>{count}</span>
-        <button
           className={'bg-red-500 p-2 rounded'}
           aria-label="Decrement value"
           onClick={() => dispatch(decrement())}
         >
           Decrement
+        </button>
+        <span className={'chip'}>{count}</span>
+        <button
+          className={'bg-green-500 p-2 rounded'}
+          aria-label="Increment value"
+          onClick={() => dispatch(increment())}
+        >
+          Increment
         </button>
       </div>
     </div>
