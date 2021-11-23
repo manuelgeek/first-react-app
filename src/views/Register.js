@@ -1,6 +1,7 @@
 import React from 'react';
 import { useForm } from "react-hook-form";
 import { ErrorMessage } from '@hookform/error-message';
+import {Counter} from "../components/Counter";
 
 function Register(props) {
 
@@ -25,6 +26,8 @@ function Register(props) {
         <input type="password" name="" id="password" placeholder={'password'}/> <br/><br/>
         <input type="submit" name="" id=""/>
       </form>
+      <br/>
+      <Counter />
     </div>
   );
 }
